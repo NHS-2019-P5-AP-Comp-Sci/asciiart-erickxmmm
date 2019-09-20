@@ -18,10 +18,36 @@
 
 public class ASCIIArt {
 	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+		topofTurtleShell();
+		actualshell();
+		turtlelegs();
+		clouds();
+
 	}
+	public static void topofTurtleShell() {
+		System.out.println("      /\\     /\\              ");
+		System.out.println("     |  |   |  |               ");
+		System.out.println("      \\/     \\/              ");
+		System.out.println("       |..--.|                 ");
+                           
+	}
+	public static void actualshell() {
+		//System.out.println("   __________   ");
+		System.out.println("     /__|__|__|_\\   ,^^^,     \"IM THE WORLDS FIRST FLYING TURTLE HAHA\"");
+		System.out.println("    /   |  |  |  \\  | - -|    ");
+		System.out.println("O--/____|__|__|___\\ |___ /    ");
+	}
+	public static void turtlelegs() {
+		System.out.println("    | |         | |    ");
+		System.out.println("    | |         | |    ");
+		System.out.println("    UUU         UUU    ");
+	}
+	public static void clouds() {
+	    System.out.println("/MMMMMMM\\        /MMMMMMMM\\            ");
+	    System.out.println("\\MMMMMMM/        \\MMMMMMMM/            ");
+	    System.out.println("             /MMMMMM\\                   "); 
+	    System.out.println(" /MMMMM\\     \\MMMMMM/     /MMMMMM\\    ");
+	    System.out.println(" \\MMMMM/                  \\MMMMMM/ \nps.Your jealous I can fly     ");
+	
 }
+     }
